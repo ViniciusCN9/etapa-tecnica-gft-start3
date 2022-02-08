@@ -13,22 +13,24 @@ public class Main {
         System.out.println("INPUT: ");
         String palavra = input.next();
 
-        System.out.println(letraRepetida(palavra));
+        char[] letras = palavra.toCharArray();
+        List<Character> duplicadas = new ArrayList<>();
+
+        char anterior = '_';
 
 
-    }
+        for (int i = 0; i < letras.length; i++) {
 
-    public static char letraRepetida(String s) {
-        char c;
-        for (int i = 0; i < s.length(); i++) {
-            c = s.charAt(i);
-            for (int j = i + 1; j < s.length(); j++) {
-                if (c == s.charAt(j)) //Retorna a letra, mas só vai capturar
-                {                    //a correta se a string dada for toda minúscula
-                    return c;
-                }
+            if (letras[i] == anterior) {
+                duplicadas.add(letras[i]);
             }
+            anterior = letras[i];
         }
-        return '_';
+
+        System.out.println(duplicadas);
+
+        // Faltou a implementação para comparar o array de chars e subtrair da list das letras duplicadas
+
+
     }
 }
