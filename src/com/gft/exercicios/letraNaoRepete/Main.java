@@ -1,36 +1,30 @@
 package com.gft.exercicios.letraNaoRepete;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("INPUT: ");
         String palavra = input.next();
+        char[] charArray = palavra.toCharArray();
+        List<Character> charList = new ArrayList<>();
 
-        char[] letras = palavra.toCharArray();
-        List<Character> duplicadas = new ArrayList<>();
-
-        char anterior = '_';
-
-
-        for (int i = 0; i < letras.length; i++) {
-
-            if (letras[i] == anterior) {
-                duplicadas.add(letras[i]);
-            }
-            anterior = letras[i];
+        for (char letra : charArray){
+            charList.add(letra);
         }
 
-        System.out.println(duplicadas);
+        Set<Character> set = new HashSet<>();
+        List<Character> duplicados = new ArrayList<>();
 
-        // Faltou a implementação para comparar o array de chars e subtrair da list das letras duplicadas
+        for (char letra : charArray) {
+            if (!set.add(letra)) duplicados.add(letra);
 
+        }
+        charList.removeAll(duplicados);
 
+        System.out.println(charList.get(0));
     }
+
 }

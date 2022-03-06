@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28e7a14-a4e3-4b2f-b125-3499b45677a9" name="Changes" comment="Commited">
+    <list default="true" id="e28e7a14-a4e3-4b2f-b125-3499b45677a9" name="Changes" comment="Commited2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/etapa-tecnica-GFTStart3/com/gft/exercicios/letraNaoRepete/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/etapa-tecnica-GFTStart3/com/gft/exercicios/letraNaoRepete/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gft/exercicios/letraNaoRepete/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gft/exercicios/letraNaoRepete/Main.java" afterDir="false" />
@@ -41,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Virtual_CNC_Machine" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -98,9 +99,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644353803076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commited2">
+      <created>1644354129720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644354129720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,11 +155,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Commited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commited" />
+    <MESSAGE value="Commited2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commited2" />
   </component>
 </project>
